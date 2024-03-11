@@ -1,0 +1,98 @@
+html, body {
+    height: 100%;
+}
+body{
+    background: url("images (2).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0%;
+    
+}
+form{
+    text-align: center;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgb(21, 21, 216);
+    align-self: center;
+    margin-top: 100px;
+    size: 50%;
+    border: 2px white;
+    padding: 20px 20px;
+    border:2px solid black;
+    max-width: 50%;
+    height: 70%;
+    background-color: rgba(245, 245, 245, 0.911);
+    filter: blur(px) brightness(800%) contrast(1200%) saturate(1500%);
+
+}
+#username{
+    color: black;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    position: relative;
+}
+#pass{
+    color: black;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    
+}
+#id{
+    background: url("user-login-icon-14.png");
+    background-size: 100px;
+    background-color: white;
+    opacity: 100%;
+    size: 25px;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    margin-left: 50px;
+    transform: translate(200%, -200%);
+    border: 2px solid grey;
+    border-radius:50px;
+    margin-top: 20px;
+    position:relative;
+    margin-top: 30px;
+    text-shadow: 20px 20px;
+    filter: blur(0%) brightness(80%) contrast(120%) saturate(150%);
+    
+
+}
+#remMe{
+    margin-left:02px;
+}
+#chkBox{
+    margin-left:-50px;
+    margin-bottom: 10px;
+}
+#fgtPass{
+    margin-left: -30px;
+    margin-top: 40px;
+}
+#login{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 20px;
+    width: 150px;
+    background-color:white;
+    border-radius: 10px;
+}
+.blur-background {
+    backdrop-filter: blur(10px);}
+
+
