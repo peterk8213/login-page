@@ -91,6 +91,10 @@ form{
     width: 150px;
     background-color:white;
     border-radius: 10px;
+    
+}
+#login:hover{
+    background-color: silver;
 }
 .blur-background {
     backdrop-filter: blur(10px);}
